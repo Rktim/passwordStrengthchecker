@@ -14,7 +14,7 @@ def check_password_strength(p):
         return "Strong Password!!"
     elif error<=2:
         return "Moderate Password.."
-    elif error<2:
+    elif error>2:
         return "Weak Password!!"
 
 st.title("Password Checker🧐!!")
